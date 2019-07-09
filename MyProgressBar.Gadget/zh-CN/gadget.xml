@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gadget>
+  <name>进度条</name>
+  <namespace><!--_locComment_text="{Locked}"-->summerxu</namespace>
+  <version><!--_locComment_text="{Locked}"-->1.0.0.0</version>
+  <author name="summerxu">
+      <info url="https://summerxu.net" />
+  </author>
+  <copyright><!--_locComment_text="{Locked}"-->© 2019</copyright>
+  <description>查看当天工作进度</description>
+  <icons>
+    <icon height="48" width="48" src="icon.png"/>
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <autoscaleDPI><!--_locComment_text="{Locked}"-->true</autoscaleDPI>
+      <base type="html" apiVersion="1.0.0" src="progress.html"/>
+      <permissions><!--_locComment_text="{Locked}"-->full</permissions>
+      <platform minPlatformVersion="1.0"/>
+      <defaultImage src="drag.png"/>
+    </host>
+  </hosts>
+</gadget>
