@@ -1,0 +1,1 @@
+# WIN7DesktopGadgetProgressBar
